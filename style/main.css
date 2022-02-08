@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Elementos básicos*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #131313;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 12%; 
+    margin-left: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #5b5b5b;
+    margin-right: 15px;
+}
+
+header nav a:hover{
+    color: white;
+}
+
+/*Filme em destaque*/
+
+.filme-destaque{
+    background: linear-gradient(rgba(0, 0, 0, .50), rgb(0, 0, 0, .50)100%), url('/img/img1.jpg');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.descricao{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 37px;
+}
+
+.botao{
+    background-color: rgba(0, 0, 0, .70);
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 1s;
+    text-transform: uppercase;
+
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 5px;
+}
+
+.botoes{
+    margin-left: 30px;
+}
+
+.container2{
+    margin-left: 30px;
+    width: 70%;
+}
+
+.box-filme{
+    height: 10%;
+    width: 10%;
+    display: block;
+}
+
+.classificados{
+    margin: 20px;
+}
+
