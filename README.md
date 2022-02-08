@@ -4,6 +4,8 @@ Clone da Interface da Netflix. Projeto prático realizado para bootcamp HTML Web
 
 Foram utilizados apenas HTML, CSS e JavaScript.
 
+Acesse o projeto <a href="https://gitjoaopaulo.github.io/Interface-do-Netflix/">aqui</a>
+
 ```
 Algumas técnicas colocadas em prática foram:
 
